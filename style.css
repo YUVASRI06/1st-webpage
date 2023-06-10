@@ -1,0 +1,126 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family:  Montserrat, sans-serif;;
+    text-align: center;
+    color: white;
+}
+
+.container{
+ background-color:rgb(214, 223, 83) ;
+ position: relative;
+} 
+
+h1{
+    font-family: 'Courgette', cursive;
+    font-size: 3rem;
+    font-weight:1;
+}
+
+.art{
+    text-decoration:underline;
+}
+.img1{
+
+  width: 200px;
+  height: 200px;;
+  padding-top:30px;
+  mix-blend-mode: multiply;
+}
+.img2{
+    height: 300px;
+}
+.tittle{
+    padding: 30px;
+}
+.middle-container{
+    margin:100px 0;
+    color: rgb(0, 147, 110);
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+.emoji{
+    width:200px;
+    border-radius: 50%;
+}
+.intro{
+    width: 40%;
+    margin:auto;
+    color:black
+}
+.parent{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(1,1fr);
+    width:50%;
+    margin: 100px auto 0;
+   
+    text-align: left;
+    
+}
+.skill{
+    
+    color: black;
+    color:rgb(0, 147, 110);
+}
+.para-skill{
+    color: black;
+    margin:auto;
+}
+.laptop{
+    padding:50px;
+    width: 200px;
+    height: 250px;
+}
+.artvideo{
+    width:300px;
+    height:350px;
+}
+.contact-me{
+    color: rgb(0, 147, 110);
+}
+.contactpara{
+    color:black;
+    width:40%;
+    padding: 20px;
+    
+    margin: 40px auto 60px;
+    line-height: 2;
+}
+hr{
+    
+   width: 4%;
+   border-width: 6px 6px 6px;
+   border-style: dotted dotted none;
+   border-color: rgb(234, 246, 246) rgb(234, 246, 246) rgb(234, 246, 246);
+   border-image: initial;
+   border-bottom: none;
+   margin: 100px auto;
+
+}
+h3{
+    padding: 10pxpx;
+}
+
+.btn{
+ color: rgb(255, 255, 255);
+font-size: 20px;
+background-color:rgb(0, 147, 110); 
+border-radius: 8px;
+padding: 10px ;
+text-decoration: none;
+
+}
+
+.bottom-container{
+    margin: 100px 0 0;
+    padding: 50px 0 20px;
+    background-color:rgb(214, 223, 83) ; ;
+}
+a{
+    padding: 10px;
+    text-decoration: none;
+}
+
+
